@@ -13,18 +13,18 @@ export function ProfileOverview() {
         <div className="flex flex-col gap-8 border-l border-[#222] ml-[9px] pl-6 py-1">
           <div className="relative">
             <div className="absolute w-3 h-3 bg-[#0a0a0a] border-[2px] border-[#555] rounded-full -left-[31px] top-1.5"></div>
-            <h4 className="text-[15px] font-bold text-slate-100">Senior UI/UX Designer</h4>
-            <p className="text-[13px] text-[#888] font-medium mt-0.5">Vantaraa AI • 2022 - Present</p>
+            <h4 className="text-[15px] font-bold text-slate-100">UI/UX Designer Intern</h4>
+            <p className="text-[13px] text-[#888] font-medium mt-0.5">DOT Indonesia • Mar 2026 - Present</p>
             <p className="text-[14px] text-[#aaa] mt-3 leading-relaxed">
-              Leading the product design team, building AI conversational interfaces, and establishing the core design system from scratch.
+              Designing user-centered interfaces for mobile and web applications, focusing on complex SaaS dashboard layouts with high-density data visualization and intuitive project-tracking workflows. Developed high-fidelity prototypes and interactive wireframes for seamless dev hand-off, while contributing to and scaling design systems for consistent visual identity.
             </p>
           </div>
           <div className="relative">
             <div className="absolute w-3 h-3 bg-[#0a0a0a] border-[2px] border-[#555] rounded-full -left-[31px] top-1.5"></div>
-            <h4 className="text-[15px] font-bold text-slate-100">Product Designer</h4>
-            <p className="text-[13px] text-[#888] font-medium mt-0.5">Sip & Smile • 2020 - 2022</p>
+            <h4 className="text-[15px] font-bold text-slate-100">Designer & Photographer</h4>
+            <p className="text-[13px] text-[#888] font-medium mt-0.5">Marketing & Communication FTI UII • Dec 2022 - Aug 2025</p>
             <p className="text-[14px] text-[#aaa] mt-3 leading-relaxed">
-              Designed the mobile ordering application and internal dashboards. Improved user retention by 24% through iterative UX improvements.
+              Created 80+ design assets and 80+ social media posts (Instagram/TikTok) with data-driven content strategies, increasing engagement by 20%. Pioneered an interactive Reels format that achieved 1.5x higher reach than static posts, and documented 10+ faculty events through photography and videography.
             </p>
           </div>
         </div>
