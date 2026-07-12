@@ -2,10 +2,10 @@
 
 import { galleryItems } from "@/data/gallery";
 import { Menu, X } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 
-export default function GalleryPage() {
+function GalleryContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [lightbox, setLightbox] = useState<string | null>(null);
@@ -93,5 +93,13 @@ export default function GalleryPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function GalleryPage() {
+  return (
+    <Suspense fallback={<div className="flex h-screen w-full items-center justify-center bg-[#0a0a0a]"><div className="w-6 h-6 border-2 border-slate-500 border-t-slate-200 rounded-full animate-spin"></div></div>}>
+      <GalleryContent />
+    </Suspense>
   );
 }
