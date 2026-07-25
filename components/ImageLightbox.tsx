@@ -75,6 +75,7 @@ export function ImageLightbox({ src, alt, className = "w-full object-cover" }: I
 interface ScreenFrameWithLightboxProps {
   src: string;
   alt: string;
+  aspectRatio?: string;
 }
 
 export function ScreenFrameWithLightbox({ src, alt }: ScreenFrameWithLightboxProps) {
