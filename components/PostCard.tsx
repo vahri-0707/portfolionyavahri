@@ -1,8 +1,9 @@
 "use client";
 
-import { Heart, Pin, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { Heart, Pin, X, ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
 import { Project } from "@/data/projects";
 import { useState } from "react";
+import Link from "next/link";
 
 export function PostCard({ post }: { post: Project }) {
   const [isImageOpen, setIsImageOpen] = useState(false);
@@ -99,6 +100,16 @@ export function PostCard({ post }: { post: Project }) {
            </svg>
            <span className="text-[14px] font-medium">Share</span>
          </div>
+
+         {post.projectLink && (
+           <Link
+             href={post.projectLink}
+             className="ml-auto flex items-center gap-1.5 text-[13px] font-semibold text-blue-400 hover:text-blue-300 transition-colors group/link"
+           >
+             View Project
+             <ArrowRight size={14} className="group-hover/link:translate-x-0.5 transition-transform" />
+           </Link>
+         )}
       </div>
     </div>
 

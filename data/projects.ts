@@ -14,9 +14,94 @@ export interface Project {
   images?: string[];
   likes: number;
   shares: number;
+  projectLink?: string;
 }
 
 export const projects: Project[] = [
+  {
+    id: "dot-graduation",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "24 July 2026",
+    pinned: true,
+    caption: "Just graduated from my DOT Internship as a UI/UX Designer and was awarded Best Designer! Grateful for the experience and ready for the next challenge.",
+    image: "/graduate dot.png",
+    likes: 420,
+    shares: 28,
+  },
+  {
+    id: "triply-launch",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "25 July 2026",
+    caption: "New case study just dropped: Triply, the travel app that replaces your discovery app, your booking platform, and your trip spreadsheet. One flow from 'where should I go?' to 'payment confirmed.' Check it out",
+    image: "/Triply Project/Triply - Thumbnail.png",
+    projectLink: "/projects/triply",
+    likes: 0,
+    shares: 0,
+  },
+  {
+    id: "vantage-case-study",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "20 July 2026",
+    caption: "New case study: Vantage, a landing page concept for an AI-powered sprint workflow platform. Every section designed with conversion in mind, from hero to footer.",
+    image: "/vantage project/vantage thumbnail.png",
+    projectLink: "/projects/vantage",
+    likes: 87,
+    shares: 9,
+  },
+  {
+    id: "orbital-case-study",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "18 July 2026",
+    caption: "New case study: Orbital, a landing page for a smart automation platform that brings design, engineering, and workflow into one unified system.",
+    image: "/orbital project/orbital thumbnail.png",
+    projectLink: "/projects/orbital",
+    likes: 112,
+    shares: 14,
+  },
+  {
+    id: "weatherr-case-study",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "15 June 2026",
+    caption: "Published my first case study on Weatherr! It's a mobile app focused on earthquake and weather preparedness to help people stay safe and informed.",
+    image: "/Weatherr Project/Weatherr - Showcase Thumbnail.png",
+    projectLink: "/projects/weatherr",
+    likes: 154,
+    shares: 12,
+  },
+  {
+    id: "clearclaim-case-study",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "10 May 2026",
+    caption: "Deep dive into ClearClaim: a complete SaaS dashboard built to streamline reimbursement management for growing teams. Read the full breakdown of the process and design decisions.",
+    image: "/Clear Claim Project/ClearClaim - Thumbnail Image.png",
+    projectLink: "/projects/clearclaim",
+    likes: 201,
+    shares: 24,
+  },
   {
     id: "5",
     author: {

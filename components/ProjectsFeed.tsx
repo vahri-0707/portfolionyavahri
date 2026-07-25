@@ -24,42 +24,36 @@ const WebsiteIcon = ({ className }: { className?: string }) => (
 
 const projectCategories = [
   {
+    id: "mobile",
+    title: "Mobile App",
+    icon: MobileIcon,
+    count: 2,
+    projects: [
+      { id: "weatherr", title: "Weatherr", subtitle: "Weather & earthquake-preparedness app", image: "/Weatherr Project/Weatherr - Showcase Thumbnail.png" },
+      { id: "triply", title: "Triply", subtitle: "All-in-one travel companion for modern explorers", image: "/Triply Project/Triply - Thumbnail.png" },
+    ]
+  },
+  {
     id: "landing",
     title: "Landing Page",
     icon: WebsiteIcon,
-    count: 4,
+    count: 2,
     projects: [
-      { id: "l1", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "l2", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "l3", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "l4", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
+      { id: "vantage", title: "Vantage", subtitle: "AI-powered sprint workflow landing page", image: "/vantage project/vantage thumbnail.png" },
+      { id: "orbital", title: "Orbital", subtitle: "Smart automation platform landing page", image: "/orbital project/orbital thumbnail.png" },
     ]
   },
   {
     id: "saas",
     title: "SaaS Dashboard",
     icon: UiUxIcon,
-    count: 4,
+    count: 1,
     projects: [
-      { id: "s1", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "s2", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "s3", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "s4", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
+      { id: "clearclaim", title: "ClearClaim", subtitle: "Reimbursement management SaaS for teams", image: "/Clear Claim Project/ClearClaim - Thumbnail Image.png" },
     ]
   },
-  {
-    id: "mobile",
-    title: "Mobile App",
-    icon: MobileIcon,
-    count: 4,
-    projects: [
-      { id: "m1", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "m2", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "m3", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-      { id: "m4", title: "To be posted", subtitle: "Coming soon", image: "/tobeposted.png" },
-    ]
-  }
 ];
+
 
 export function ProjectsFeed() {
   return (
@@ -87,7 +81,7 @@ export function ProjectsFeed() {
 
       {/* Categories */}
       <div className="flex-1 flex flex-col">
-        {projectCategories.map((category) => (
+        {projectCategories.filter(c => c.projects.length > 0).map((category) => (
           <div key={category.id} className="flex flex-col border-b border-[#181818] last:border-0 pb-2">
             
             {/* Section Header */}

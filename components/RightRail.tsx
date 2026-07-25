@@ -41,10 +41,10 @@ export function RightRail() {
           </Link>
         </div>
         <div className="flex flex-col gap-4">
-          {projectDetails.slice(0, 3).map((project) => (
+          {projectDetails.filter(p => p.title !== "To be posted").slice(0, 3).map((project) => (
             <Link key={project.id} href={`/projects/${project.id}`} className="flex items-center gap-3 cursor-pointer group">
               <div className="w-11 h-11 rounded-[10px] overflow-hidden shrink-0 bg-[#222]">
-                <img src={project.coverImage} alt={project.title} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                <img src={project.coverImage} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="flex flex-col min-w-0 flex-1 pr-6">
                 <h4 className="text-[14px] font-bold text-slate-100 truncate group-hover:text-blue-400 transition-colors">{project.title}</h4>

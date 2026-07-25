@@ -10,6 +10,41 @@ export interface Notification {
 
 export const notifications: Notification[] = [
   {
+    id: "triply-case-study",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for Triply, an all-in-one travel companion app",
+    date: "25 July 2026",
+  },
+  {
+    id: "vantage-case-study-notif",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for Vantage, an AI-powered sprint workflow landing page",
+    date: "20 July 2026",
+  },
+  {
+    id: "orbital-case-study-notif",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for Orbital, a smart automation platform landing page",
+    date: "18 July 2026",
+  },
+  {
+    id: "weatherr-case-study-notif",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for Weatherr, an earthquake and weather preparedness app",
+    date: "15 June 2026",
+  },
+  {
+    id: "clearclaim-case-study-notif",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for ClearClaim, a reimbursement management SaaS",
+    date: "10 May 2026",
+  },
+  {
     id: "n1",
     type: "NEW_POSITION",
     title: "Started a new position",
