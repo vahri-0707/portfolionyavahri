@@ -229,6 +229,145 @@ export const projectDetails: ProjectDetail[] = [
 
   // ─── Mobile App ───────────────────────────────────────────────────────────────
   {
+    id: "zesty",
+    title: "Zesty",
+    tagline: "A calorie tracker that feels like a buddy, not a judge",
+    coverImage: "/Zesty Project/Zesty - Thumbnail.png",
+    year: "2026",
+    category: "Mobile App",
+    role: "UI/UX Designer",
+    teammates: ["Solo project, no teammates"],
+    tools: ["Figma"],
+    timeline: "N/A",
+    description: "Most calorie trackers are built like spreadsheets: dense numbers, red warnings when you go over, and streaks that punish you for missing a day. For people who are just starting a healthy habit, this feels intimidating.",
+    context: "This concept is built around one question: how can a calorie tracker stay accurate and useful while feeling friendly enough that people actually open it every day? The answer is a tracker that behaves like a buddy: a chameleon mascot, a soft lime palette, rounded shapes, and encouraging copy.",
+    sections: [],
+    goals: [
+      "Calories Summary: Remaining is the hero number in a semi-circle gauge, with Eaten and Burned as quiet supporting numbers.",
+      "Macros: Three compact progress bars with distinct, non-alarming colors (blue protein, orange carbs, yellow fats).",
+      "Meals: Meal cards with an icon inside a progress ring; the ring turns red only when a meal goes over its goal, with no warning text.",
+      "Streaks: A celebration screen with a weekly tracker, a glowing ring on the current day, and copy like 'Your buddy is proud of you!'.",
+      "Goals: A Goal Progress card with segmented pills, a short label, and chips for 'to go' and 'target'."
+    ],
+    process: [
+      {
+        title: "1. Research",
+        body: "Reviewed existing tracking apps to identify what felt intimidating about them, such as dense spreadsheets and punishing streaks."
+      },
+      {
+        title: "2. Concept",
+        body: "Chose the mascot (a chameleon), the palette, and the tone of voice to build a friendly system."
+      },
+      {
+        title: "3. High-fidelity design",
+        body: "Created the Diary, Streak, and Profile screens, plus mascot poses and the supporting states."
+      },
+      {
+        title: "4. Iteration",
+        body: "Fixed contrast, aligned the data across screens, and refined the copy."
+      },
+      {
+        title: "5. Feedback",
+        body: "Shared on LinkedIn and collected comments from other designers to evaluate the friendly feel."
+      }
+    ],
+    walkthrough: [
+      {
+        screen: "Diary (Home)",
+        image: "/Zesty Project/Diary Screen.png",
+        body: "See today at a glance and log food. The screen features a summary card with Eaten, Remaining, and Burned calories."
+      },
+      {
+        screen: "Streak",
+        image: "/Zesty Project/Streak Screen.png",
+        body: "Celebrate the daily logging habit. This screen highlights a large streak number, the mascot on a food plate, and a weekly tracker."
+      },
+      {
+        screen: "Profile",
+        image: "/Zesty Project/Profile Screen.png",
+        body: "See stats, goals, and body metrics. The Profile screen includes a stats card, a Goal Progress card, and a 2x3 Fitness Metrics grid."
+      }
+    ],
+    galleryImages: [
+      "/Zesty Project/Diary Screen.png",
+      "/Zesty Project/Streak Screen.png",
+      "/Zesty Project/Profile Screen.png"
+    ]
+  },
+  {
+    id: "sprout",
+    title: "Sprout",
+    tagline: "A membership and e-commerce app driving loyalty for small business owners",
+    coverImage: "/Sprout Project/Sprout - Thumbnail.png",
+    year: "2026",
+    category: "Mobile App",
+    role: "UI/UX Designer",
+    teammates: ["Solo project, no teammates"],
+    tools: ["Figma"],
+    timeline: "N/A",
+    description: "Sprout introduces a Membership feature to drive user loyalty, especially for small business owners (grocery stores or warungs) who routinely restock their business supplies through the app.",
+    context: "Based on the app context, the main users are small business owners who shop for stock routinely, not just end consumers. They want to know the benefits of upgrading tiers, the fastest way to earn points, and which rewards are relevant to their store needs.",
+    sections: [],
+    goals: [
+      "Tier Upgrade Motivation: Progress to the next tier alone is not enough. Users need to know the concrete benefits of that tier and how it compares to others.",
+      "How to Earn Points: Users need explicit explanations on all methods to increase points.",
+      "Promo Urgency: Promos without time limits offer no psychological push to use them immediately.",
+      "Transparent Point Ledger: Users need to track both incoming points and where their points were spent.",
+      "Reward Search Efficiency: An expanding reward catalog requires category filters so users can quickly find rewards relevant to their needs."
+    ],
+    process: [
+      {
+        title: "1. Discover",
+        body: "Mapped the app context to understand who the users are and what they need from a membership program."
+      },
+      {
+        title: "2. Define",
+        body: "Formulated the 'Bu Rina' persona and compiled the list of problems: motivation to upgrade, explicit point earning methods, promo urgency, filterable catalog, and transparent ledger."
+      },
+      {
+        title: "3. Ideate",
+        body: "Brainstormed solutions: Gold/Platinum/Diamond comparison tabs, 'How to Earn Points' page with missions, urgency labels, catalog category filters, point history, and personal greetings."
+      },
+      {
+        title: "4. Design",
+        body: "Created high-fidelity mockups in Figma with a consistent green palette, components, and card structures so the entire app feels like one unified system."
+      },
+      {
+        title: "5. Validate",
+        body: "Reviewed the end-to-end flow to ensure every feature is accessible in max 1-2 taps from home."
+      }
+    ],
+    walkthrough: [
+      {
+        screen: "Home & Member Card",
+        image: "/Sprout Project/Sprout - Main 1.png",
+        body: "The home screen acts as the main hub. The Sprout green palette serves as the core identity. The point numbers are prominent as the hero information."
+      },
+      {
+        screen: "Tier Comparison",
+        image: "/Sprout Project/Sprout - Gold Member 1.png",
+        body: "The Member Benefits page uses a familiar segmented control navigation. This allows users to easily compare benefits across tiers without jumping between pages."
+      },
+      {
+        screen: "Reward Catalog & Ledger",
+        image: "/Sprout Project/Sprout - Platinum Member 1-1.png",
+        body: "The reward catalog includes category tabs to speed up searches. The transaction history records both incoming and outgoing points."
+      },
+      {
+        screen: "How to Earn Points",
+        image: "/Sprout Project/Sprout - Cara Dapat Poin 1.png",
+        body: "The mission system drives real business behavior: restock frequency. It provides a concrete progress bar and a deadline, motivating users to complete just one more transaction."
+      }
+    ],
+    galleryImages: [
+      "/Sprout Project/Sprout - Main 1.png",
+      "/Sprout Project/Sprout - Gold Member 1.png",
+      "/Sprout Project/Sprout - Platinum Member 1.png",
+      "/Sprout Project/Sprout - Platinum Member 1-1.png",
+      "/Sprout Project/Sprout - Cara Dapat Poin 1.png"
+    ]
+  },
+  {
     id: "triply",
     title: "Triply",
     tagline: "A travel companion app for discovering destinations, planning trips, and booking in one place",
@@ -348,6 +487,99 @@ export const projectDetails: ProjectDetail[] = [
   // ─── Landing Page ─────────────────────────────────────────────────────────────
 
   // ─── SaaS Dashboard ───────────────────────────────────────────────────────────
+  {
+    id: "indolink",
+    title: "IndoLink",
+    tagline: "A link-in-bio builder for e-commerce brands",
+    coverImage: "/IndoLink Project/IndoLink - Thumbnail.png",
+    year: "2026",
+    category: "SaaS Dashboard",
+    role: "UI/UX Designer",
+    teammates: ["Solo project, no teammates"],
+    tools: ["Figma"],
+    timeline: "N/A",
+    description: "IndoLink is built specifically for that niche: brand owners who want their bio page to function like a storefront, not just a list of links, complete with their own domain, instead of riding on a platform's subdomain.",
+    context: "Linktree and Heylink were built for creators in general, with one global theme and a generic list of links, without considering that brands selling physical products need a different way to display content than creators who just share social media links.",
+    sections: [],
+    goals: [
+      "Custom Domain & Unlimited Content - The 'Connect Domain' button is positioned exactly next to the URL bar, always visible in the top bar.",
+      "WhatsApp as the Main CTA - In Indonesia, closing sales mostly happens via chat, not automatic checkout. Therefore, the WhatsApp Block is given 5 display styles.",
+      "Native Shop Block Controls - Controls like Track Stock (automatically hide products when stock runs out) and Click Destination (brand owners choose whether the product is directed to WhatsApp or an External Link).",
+      "AI Generator with Auto-import - Brand owners can paste product URLs from Shopee/TikTok Shop for auto-import, or simply describe their business in a single line of text.",
+    ],
+    process: [
+      {
+        title: "The Differentiator",
+        body: "Competitors treat all content the same. IndoLink organizes appearance in a 2-layer system that complements each other.",
+      },
+      {
+        title: "Global Theme Templates",
+        body: "Brand owners can choose one visual personality in a single click, which directly affects the entire page.",
+      },
+      {
+        title: "Per-block fine-tuning",
+        body: "Each block type still has specific controls according to its respective functions.",
+      }
+    ],
+    walkthrough: [
+      {
+        screen: "Links Tab",
+        image: "/IndoLink Project/Indolink Links My Page.png",
+        body: "This is the core workspace where brand owners manage their content. They can use the AI Generator or manually add blocks one by one.",
+      },
+      {
+        screen: "Appearance Tab",
+        image: "/IndoLink Project/Indolink Appearance 1.png",
+        body: "Brand owners select a Global Theme Template for the overall visual personality.",
+      },
+      {
+        screen: "Granular Customization",
+        image: "/IndoLink Project/Indolink Appearance 2.png",
+        body: "Each block type has its own set of layout and styling controls. This granular customization ensures that a product card can highlight pricing and imagery optimally.",
+      },
+      {
+        screen: "Adding a Product Block",
+        image: "/IndoLink Project/Indolink Add Product 1.png",
+        body: "The Product block is not just a link to a product. It features 7 layout choices, Photo Ratios, Stock Badges, and Price Tags.",
+      },
+      {
+        screen: "WhatsApp Block",
+        image: "/IndoLink Project/Indolink Add WhatsApp 1.png",
+        body: "The WhatsApp Block is treated as a primary CTA. You input the number, button text, and automated message.",
+      },
+      {
+        screen: "Gallery Block",
+        image: "/IndoLink Project/Indolink Add Gallery 1.png",
+        body: "The Gallery block supports multi-uploading photos without limits.",
+      },
+      {
+        screen: "Countdown Block",
+        image: "/IndoLink Project/Indolink Add Countdown 1.png",
+        body: "Built as a native extension for time-sensitive promotions, the Countdown Block takes a title and an end date.",
+      },
+      {
+        screen: "Location Block",
+        image: "/IndoLink Project/Indolink Add Location 1.png",
+        body: "For brands with physical presence, the Location block allows adding an address, branch name, and operational hours.",
+      },
+      {
+        screen: "Standard Link Block",
+        image: "/IndoLink Project/Indolink Add Link 1.png",
+        body: "Even standard links are given rich customization. After entering the URL, title, and optional thumbnail, users can dictate the layout, Corner Shape, Button Fill, and Animation Style.",
+      }
+    ],
+    galleryImages: [
+      "/IndoLink Project/Indolink Links My Page.png",
+      "/IndoLink Project/Indolink Appearance 1.png",
+      "/IndoLink Project/Indolink Appearance 2.png",
+      "/IndoLink Project/Indolink Add Product 1.png",
+      "/IndoLink Project/Indolink Add WhatsApp 1.png",
+      "/IndoLink Project/Indolink Add Gallery 1.png",
+      "/IndoLink Project/Indolink Add Countdown 1.png",
+      "/IndoLink Project/Indolink Add Location 1.png",
+      "/IndoLink Project/Indolink Add Link 1.png",
+    ]
+  },
   {
     id: "clearclaim",
     title: "ClearClaim",

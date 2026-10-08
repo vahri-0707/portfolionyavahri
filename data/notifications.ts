@@ -10,6 +10,27 @@ export interface Notification {
 
 export const notifications: Notification[] = [
   {
+    id: "zesty-case-study-notif",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for Zesty, a friendly calorie tracker",
+    date: "28 July 2026",
+  },
+  {
+    id: "sprout-case-study-notif",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for Sprout, a membership app for small business owners",
+    date: "27 July 2026",
+  },
+  {
+    id: "indolink-case-study-notif",
+    type: "NEW_PROJECT",
+    title: "New case study dropped",
+    description: "Published a new case study for IndoLink, a link-in-bio builder for e-commerce brands",
+    date: "26 July 2026",
+  },
+  {
     id: "triply-case-study",
     type: "NEW_PROJECT",
     title: "New case study dropped",

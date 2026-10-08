@@ -27,8 +27,10 @@ const projectCategories = [
     id: "mobile",
     title: "Mobile App",
     icon: MobileIcon,
-    count: 2,
+    count: 4,
     projects: [
+      { id: "zesty", title: "Zesty", subtitle: "A friendly calorie tracker", image: "/Zesty Project/Zesty - Thumbnail.png" },
+      { id: "sprout", title: "Sprout", subtitle: "Membership app for small businesses", image: "/Sprout Project/Sprout - Thumbnail.png" },
       { id: "weatherr", title: "Weatherr", subtitle: "Weather & earthquake-preparedness app", image: "/Weatherr Project/Weatherr - Showcase Thumbnail.png" },
       { id: "triply", title: "Triply", subtitle: "All-in-one travel companion for modern explorers", image: "/Triply Project/Triply - Thumbnail.png" },
     ]
@@ -47,8 +49,9 @@ const projectCategories = [
     id: "saas",
     title: "SaaS Dashboard",
     icon: UiUxIcon,
-    count: 1,
+    count: 2,
     projects: [
+      { id: "indolink", title: "IndoLink", subtitle: "Link-in-bio builder for e-commerce brands", image: "/IndoLink Project/IndoLink - Thumbnail.png" },
       { id: "clearclaim", title: "ClearClaim", subtitle: "Reimbursement management SaaS for teams", image: "/Clear Claim Project/ClearClaim - Thumbnail Image.png" },
     ]
   },

@@ -33,6 +33,48 @@ export const projects: Project[] = [
     shares: 28,
   },
   {
+    id: "zesty-case-study",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "28 July 2026",
+    caption: "New case study: Zesty. A calorie tracker that feels like a buddy, not a judge. Built with a 3-layer friendly system featuring a mascot, a soft lime palette, and encouraging copy.",
+    image: "/Zesty Project/Zesty - Thumbnail.png",
+    projectLink: "/projects/zesty",
+    likes: 0,
+    shares: 0,
+  },
+  {
+    id: "sprout-case-study",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "27 July 2026",
+    caption: "New case study: Sprout. A membership feature designed for small business owners. Focused on transparency, urgent promos, and an easy-to-navigate reward catalog.",
+    image: "/Sprout Project/Sprout - Thumbnail.png",
+    projectLink: "/projects/sprout",
+    likes: 0,
+    shares: 0,
+  },
+  {
+    id: "indolink-case-study",
+    author: {
+      name: "vhrimlna",
+      verified: true,
+      avatar: "/profile-pict.jpg",
+    },
+    date: "26 July 2026",
+    caption: "New case study dropped: IndoLink. A link-in-bio builder tailored specifically for e-commerce brands with a 2-layer appearance system. See how we make WhatsApp CTA and Product blocks stand out.",
+    image: "/IndoLink Project/IndoLink - Thumbnail.png",
+    projectLink: "/projects/indolink",
+    likes: 0,
+    shares: 0,
+  },
+  {
     id: "triply-launch",
     author: {
       name: "vhrimlna",
